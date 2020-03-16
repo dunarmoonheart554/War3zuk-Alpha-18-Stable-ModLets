@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
 		<Name value="War3zuk Reduced Glue" />
-		<Description value="Take the need for Bones down to 2 for making Glue" />
-		<Author value="War3zuk/Tallon" />
-		<Version value="" />
+		<Description value="Reduces The Amount Of Bones Needed For Glue" />
+		<Author value="War3zuk" />
+		<Version value="1.1" />
 		<Website value="" />
 	</ModInfo>
 </xml>

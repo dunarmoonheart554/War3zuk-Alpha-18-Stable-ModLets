@@ -1,6 +1,13 @@
 <configs>
 	
-	<set xpath="/recipes/recipe[@name='resourceGlue'][@craft_area='campfire']/ingredient[@name='resourceBone']/@count">2</set>
-	<set xpath="/recipes/recipe[@name='resourceGlue'][@craft_area='chemistryStation']/ingredient[@name='resourceBone']/@count">1</set>
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "8" craft_tool="toolCookingPot">
+	<ingredient name="resourceBone" count="4"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "4" tags="perkYeahScienceCrafting,chemStationCrafting">
+	<ingredient name="resourceBone" count="2"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
 	
 </configs>
