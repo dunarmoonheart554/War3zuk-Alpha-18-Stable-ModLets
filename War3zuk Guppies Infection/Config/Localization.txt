@@ -1,3 +1,0 @@
-Key,Source,Context,Changes,English
-
-HDGTKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
