@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+
+HDBrainPoxTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+
+HDKrytosTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.
+
+HDSpattergroitTestKitDesc,items,,,The ONLY thing thats stands in the way of Your DEATH.

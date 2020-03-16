@@ -1,0 +1,85 @@
+<configs>
+	
+<set xpath="/items/item[@name='meleeHandZombieStripper']/property[@class='Action0']/property[@name='Buff']/@value">,BuffBrainPox</set>
+<set xpath="/items/item[@name='meleeHandAnimalZombieVulture']/property[@class='Action0']/property[@name='Buff']/@value">,BuffKrytos</set>
+<set xpath="/items/item[@name='meleeHandZombieHazMat']/property[@class='Action0']/property[@name='Buff']/@value">,BuffSpattergroit</set>
+	
+<append xpath="/items">
+
+<item name="HD BrainPox Test Kit">
+	<property name="CustomIcon" value="HD BrainPox Test Kit" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="FuelValue" value="1"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="150"/>
+	<property name="Group" value="Science,Medical,Basics"/>
+	<property name="DescriptionKey" value="HDBrainPoxTestKitDesc"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffBrainPox"/>
+	</effect_group>
+</item>
+
+<item name="HD Krytos Test Kit">
+	<property name="CustomIcon" value="HD Krytos Test Kit" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="FuelValue" value="1"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Science,Medical,Basics"/>
+	<property name="DescriptionKey" value="HDKrytosTestKitDesc"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffKrytos"/>
+	</effect_group>
+</item>
+
+<item name="HD Spattergroit Test Kit">
+	<property name="CustomIcon" value="HD Spattergroit Test Kit" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="HoldType" value="64"/>
+	<property name="Meshfile" value="#Other/Items?Health/bandage.fbx"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mcloth"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="FuelValue" value="1"/>
+	<property name="Weight" value="5"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Science,Medical,Basics"/>
+	<property name="DescriptionKey" value="HDSpattergroitTestKitDesc"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_bandage"/>
+	</property>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="BuffSpattergroit"/>
+	</effect_group>
+</item>
+	
+</append>
+</configs>
