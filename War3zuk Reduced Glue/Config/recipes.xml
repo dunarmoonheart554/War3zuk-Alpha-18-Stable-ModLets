@@ -3,6 +3,8 @@
 	<remove xpath="/recipes/recipe[@name='resourceGlue']"/>
 	<remove xpath="/recipes/recipe[@name='drinkJarBoiledWater']"/>
 	
+<append xpath="/recipes">
+	
 <recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "8" craft_tool="toolCookingPot">
 	<ingredient name="resourceBone" count="4"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
@@ -13,4 +15,5 @@
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 	
+</append>
 </configs>
