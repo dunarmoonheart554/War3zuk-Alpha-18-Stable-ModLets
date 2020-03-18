@@ -1,0 +1,53 @@
+<configs>
+	
+<append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntGunSafeInsecure"/>
+</append> 
+	<!--  
+<append xpath="/blocks/block[@name='cntDeskSafeInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntDeskSafeInsecure"/>
+</append> 
+
+<append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntGunSafeInsecure"/>
+</append> 
+
+<append xpath="/blocks/block[@name='cntHardenedChestInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntHardenedChestInsecure"/>
+</append> 
+	
+<append xpath="/blocks/block[@name='cntWallSafeShamwayInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntWallSafeShamwayInsecure"/>
+</append> 
+
+<append xpath="/blocks/block[@name='cntWallSafeBreweryInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntWallSafeBreweryInsecure"/>
+</append> -->
+	
+	<append xpath="/blocks">
+
+<block name="WARcntGunSafeInsecure">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="Pole1m_cap"/>
+	<property name="Texture" value="598"/>
+	<property name="LootList" value="42"/>
+	<property name="DescriptionKey" value="cntGunSafeDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntGunSafeInsecure"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+</block>
+
+</append>
+</configs>
