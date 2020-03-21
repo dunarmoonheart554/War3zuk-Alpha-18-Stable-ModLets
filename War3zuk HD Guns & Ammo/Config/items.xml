@@ -669,7 +669,7 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
@@ -685,8 +685,8 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".8"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkGunslinger,9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="350,700" tier="1,6" tags="perkDeadEye,9mmGun"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye,9mmGun"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -1067,6 +1067,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="1000"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="5"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1585,6 +1586,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="65"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="3"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -1614,6 +1616,7 @@
 </item>
 
 <item name="HD Vulcan 9mm">
+	<property name="DescriptionKey" value="HDVulcan9mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
@@ -1656,7 +1659,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-55"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-19"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
@@ -1694,6 +1697,7 @@
 </item>
 
 <item name="HD Vulcan 7.62mm">
+	<property name="DescriptionKey" value="HDVulcan762mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 7.62mm"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
@@ -1736,7 +1740,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-40"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-29"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
@@ -1774,6 +1778,7 @@
 </item>
 
 <item name="HD Vulcan 50Bmg">
+	<property name="DescriptionKey" value="HDVulcan50BmgDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
@@ -1816,7 +1821,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="70"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-65"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-80"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
@@ -2171,7 +2176,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="75"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="22"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="9"/>
@@ -2291,13 +2296,8 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth,metal,stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="head"/>
-		
 		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffFlameThrower"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffFlameThrower"/>
-		
-		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
-		
+		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffEmbers"/>
 	</effect_group>
 </item>
 
