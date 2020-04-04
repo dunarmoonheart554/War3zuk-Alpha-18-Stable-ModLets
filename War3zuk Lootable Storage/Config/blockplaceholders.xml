@@ -1,0 +1,14 @@
+<blockplaceholders>
+    
+<append xpath="/blockplaceholders">
+		
+	<placeholder name="cntStoreShelveRandomLootHelper" >
+		<block name="storeShelving01" prob="0.2"/>
+		<block name="storeShelving01Double" prob="0.8"/>
+		<block name="storeShelving01Top" prob="0.2"/>
+		<block name="storeShelving01TopDouble" prob="0.8"/>
+	</placeholder>
+	
+</append>
+
+</blockplaceholders>
