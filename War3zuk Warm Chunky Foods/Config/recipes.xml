@@ -83,5 +83,23 @@
     <ingredient name="HDBowl" count="1"/>
 </recipe>
 
+<recipe name="Warm Chunky Steak And Potato" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodSteakAndPotato" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky ChiliDog" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodChiliDog" count="1"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Fish Taco" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodFishTacos" count="1"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
 </append>
 </configs>

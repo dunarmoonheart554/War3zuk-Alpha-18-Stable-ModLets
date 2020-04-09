@@ -1,43 +1,28 @@
 <Blocks>
 
-	<append xpath="/blocks/block[@name='storeShelving01']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="600"/>
-	</append>
+<append xpath="/blocks/block[@name='palletWhiteBagsBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="519"/>
+</append>
 	
-	<append xpath="/blocks/block[@name='palletWhiteBagsBase']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="601"/>
-	</append>
+<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="520"/>
+</append>
 	
-	<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="602"/>
-	</append>
+<append xpath="/blocks/block[@name='palletBricksBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="521"/>
+</append>
 	
-	<append xpath="/blocks/block[@name='palletBrownBoxesTop']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="602"/>
-	</append>
-	
-	<append xpath="/blocks/block[@name='palletBrownBoxesLoose']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="602"/>
-	</append>
-	
-	<append xpath="/blocks/block[@name='palletBricksBase']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="603"/>
-	</append>
-	
-	<append xpath="/blocks/block[@name='palletBricksTop']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="603"/>
-	</append>
-	
-	<append xpath="/blocks/block[@name='palletBlueTarpBase']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="604"/>
-	</append>
+<append xpath="/blocks/block[@name='palletBlueTarpBase']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="522"/>
+</append>
+
+<append xpath="/blocks/block[@name='wineBarrel']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="523"/>
+</append>
 
 </Blocks>
